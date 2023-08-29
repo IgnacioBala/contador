@@ -1,0 +1,53 @@
+body{background-color: rgb(6, 125, 161);
+    display:flex;
+    justify-content:center
+}
+.carta {
+    border: 4px solid #ccc;
+    border-radius: 20%;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 4px #000000;
+    text-align: center;
+    align-content: center;
+}
+
+.contador {
+    font-size: 24px;
+}
+
+.boton {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    align-items:center
+    
+}
+
+.boton.restar {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+}
+
+.boton.sumar {
+    background-color: #33FF57;
+    color: white;
+    border: none;
+}
+
+.boton.reiniciar {
+    background-color: #3377FF;
+    color: white;
+    border: none;}
+    
+    header, footer{
+        text-align: center;
+        padding: 24px;
+        color:black;
+        background-color:var(--color-secundario) ;
+        border-radius: 20%;
+        
+    }   
